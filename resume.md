@@ -138,6 +138,14 @@ Open Source
 * [`presta_shop` gem - a library for Ruby to interact with PrestaShop's Web Service API](https://github.com/iaintshine/presta_shop)
 * [`ccurl` - command line utility over standard `curl` command with fancy output](https://github.com/iaintshine/ccurl)
 
+Affilations
+-----------
+
+* DataKrk (formerly Cracow Hadoop User Group)
+* Software Craftsmanship Cracow
+* Cracow Ruby User Group (KRUG)
+* Golang KRK
+
 Personal Interests
 ------------------
 
