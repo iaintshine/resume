@@ -21,6 +21,7 @@ Areas of Interests
 * Large - scale distributed systems
 * (Micro) Service - Oriented Architecture
 * Message Oriented Middlewares
+* Beautiful REST API design
 * NoSQL databastores
 * Configuration management
 * Social online gaming platforms
@@ -41,7 +42,7 @@ Projects:
 
 * Topware's Platform 
 
-* Two Worlds II Online Backend
+* Two Worlds II Online Backend - one of the requirements for the game except for social gaming features was to bring micro - transactions so users could buy virtual currencies, unlock items and customize their characters. Logical continuation to G2Liveμ. Two additional services were introduced into the backend - G2Payment (written in Ruby and used as a proxy service between the game and payment gateways) and modified Prestashop (written in PHP and used as a user - facing store, modification to the shop were introduced by other company). All processes were communicating using internal json REST API.  
 
 * G2Liveμ - simple mostly monolithic server backend with social gaming features, written in Rails using Ruby language, sessions and scores are stored in Redis, achievements, achievements description, leaderboard descriptions and user data are stored in MySQL database, statsd and graphite are used to track number of concurrent user sessions, number of requests etc. Service is made of two distinct processes. The first one exposes json REST API to communicate with, admin and user dashboards and the second one is used for background processing - sending emails.         
 
