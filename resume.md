@@ -16,6 +16,13 @@ Hey guys, I'm a self - managing generalist programmer with passion to learn. I c
 Areas of Expertise
 ------------------
 
+* Multi - threaded programming
+* Large - scale distributed systems
+* Service - Oriented Architecture
+* NoSQL databastores
+* Object - oriented and functional programming
+* Configuration management
+
 Technical Highlights
 --------------------
 
@@ -26,7 +33,8 @@ Experience
 
 September 2012 - present
 
-Mainly responsible for server side R&D. Researching distributed systems, distributed programming methodologies and concurrency patterns and incorporating them into the game development.
+As a platform architect I was responsible for the architecting and building backend solutions used in gaming. One of my duty was to provide technical guidance and mentoring to awesome team of two other engineers building user - facing application as well as some of the backend services. Writing platform design documents, REST API design, technology consideration were on a daily basis. As a software enginner responsible for writing language agnostic extensible framework used across services, implementing client and server APIs, writing, running and automating unit and acceptance tests. Load testing and operational automation were my duty as well. Continually looking for ways to improve existing monitoring, deployment solutions and devops practices.   
+
 
 Projects:
 
