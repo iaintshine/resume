@@ -19,6 +19,16 @@ Technical Highlights
 Experience
 ----------
 
+**Backend Technology Architect and Engineer, Reality Pump**
+
+September 2012 - present
+
+
+**Backend Technology Solution Engineer, Better Reality**
+
+May 2014 - June 2014
+
+
 **Engine Architect and Developer, Reality Pump**
 
 January 2012 - September 2012
@@ -26,7 +36,7 @@ January 2012 - September 2012
 Working closely with Lead Engine Programmer, I take responsibility for high level decisions regarding, low – level technologies, to be used and researched in a modern engine crafted internally at Reality Pump studios. Research topics:
 
 * R&D of a new solutions to n – way threading of game technologies (lock – less subsystem communications, task – stealing job scheduling, property based and observer based distribution changes using distribution controller).
-* Responsible for design and implementation of G2Live service abstracting platform specific online multiplayer gaming services 
+* Responsible for design and implementation of G2Live system - service abstracting platform specific online social and multiplayer gaming services with backends for Valve's Steamworks, Sony Playstation Network, Xbox Live, Apple's Game Center and internal lightweight dedicated solution called G2Liveμ    
 * Design and development of new virtual file system allowing great performance, flexibility and rapid prototyping (custom compression algorithm – dictionary based deflate, to allow seeking in compressed file packages, hot – asset reloading, file system queries, flat and recursive directory iterators, URI based path resolver, virtual mount points e.g. network mount point, DVD mount point, etc). 
 
 
