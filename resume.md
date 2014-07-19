@@ -23,11 +23,23 @@ Experience
 
 September 2012 - present
 
+Projects
+
+* Topware's Platform 
+* Two Worlds II Online Backend
+* G2Liveμ 
 
 **Backend Technology Solution Engineer, Better Reality**
 
 May 2014 - June 2014
 
+As a solution engineer I was working closely with the client by providing necessary documentation and expertise during the evaluation process of the backend platform for their needs. Custom solution was designed from the ground up exactly for their needs with scalability in mind. The backend system has a distributed nature and employs the microservice architecture where services can communicate using RPC (thrift) calls or can post events to global message bus with advance routing capabilities (rabbitmq). Services are discovered using seperate distributed service discovery orchestrator and all events in the system are audited by the central auditing service. User facing features:
+
+* Email and social registration, annonymous accounts support (full profile transfer possible) 
+* Standard and incremental achievements with social comparision charts
+* Arbitrary data Geo - leaderboards with hierarchical data drilling (world, zone, country, state, local area, friends/social circle)
+* Advance privacy options (location, division restriction)
+* Location pinning - user might choose for which country one wants to play for        
 
 **Engine Architect and Developer, Reality Pump**
 
