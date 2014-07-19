@@ -13,15 +13,17 @@ About
 Hey guys, I'm a self - managing generalist programmer with passion to learn. I constantly go beyound current superficial knowledge in order to seek newer, faster, better, scalier ways to solve problems. These days I'm absorbed by building and maintaining high - performance, fault - tolerant and scalable distributed services designed for gaming and players in mind. And yeah, I love working with open source technology.
 
 
-Areas of Expertise
+Areas of Interests
 ------------------
 
 * Multi - threaded programming
-* Large - scale distributed systems
-* Service - Oriented Architecture
-* NoSQL databastores
 * Object - oriented and functional programming
+* Large - scale distributed systems
+* (Micro) Service - Oriented Architecture
+* Message Oriented Middlewares
+* NoSQL databastores
 * Configuration management
+* Social online gaming platforms
 
 Technical Highlights
 --------------------
@@ -33,8 +35,7 @@ Experience
 
 September 2012 - present
 
-As a platform architect I was responsible for the architecting and building backend solutions used in gaming. One of my duty was to provide technical guidance and mentoring to awesome team of two other engineers building user - facing application as well as some of the backend services. Writing platform design documents, REST API design, technology consideration were on a daily basis. As a software enginner responsible for writing language agnostic extensible framework used across services, implementing client and server APIs, writing, running and automating unit and acceptance tests. Load testing and operational automation were my duty as well. Continually looking for ways to improve existing monitoring, deployment solutions and devops practices.   
-
+As a platform architect I was responsible for the architecting and building backend solutions used in gaming. One of my duty was to provide technical guidance and mentoring to awesome team of two other engineers building user - facing application as well as some of the backend services. Writing platform design documents, REST API design, technology research and setting the technical direction were on a daily basis. As a software enginner responsible for writing language agnostic extensible framework used across services, implementing client and server APIs, writing, running and automating unit and acceptance tests. Load testing and operational automation were my duty as well. Continually looking for ways to improve existing monitoring, deployment solutions and devops practices.
 
 Projects:
 
@@ -42,7 +43,7 @@ Projects:
 
 * Two Worlds II Online Backend
 
-* G2Liveμ 
+* G2Liveμ - simple mostly monolithic server backend with social gaming features, written in Rails using Ruby language, sessions and scores are stored in Redis, achievements, achievements description, leaderboard descriptions and user data are stored in MySQL database, statsd and graphite are used to track number of concurrent user sessions, number of requests etc. Service is made of two distinct processes. The first one exposes json REST API to communicate with, admin and user dashboards and the second one is used for background processing - sending emails.         
 
 **Backend Technology Solution Engineer, Better Reality**
 
