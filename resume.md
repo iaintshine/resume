@@ -10,6 +10,9 @@ Poland                      509947122
 About
 -----
 
+Hey guys, I'm a self - managing generalist programmer with passion to learn. I constantly go beyound current superficial knowledge in order to seek newer, faster, better, scalier ways to solve problems. These days I'm absorbed by building and maintaining high - performance, fault - tolerant and scalable distributed services designed for gaming and players in mind. And yeah, I love working with open source technology.
+
+
 Areas of Expertise
 ------------------
 
@@ -22,6 +25,8 @@ Experience
 **Backend Technology Architect and Engineer, Reality Pump**
 
 September 2012 - present
+
+Mainly responsible for server side R&D. Researching distributed systems, distributed programming methodologies and concurrency patterns and incorporating them into the game development.
 
 Projects
 
@@ -48,7 +53,7 @@ January 2012 - September 2012
 Working closely with Lead Engine Programmer, I take responsibility for high level decisions regarding, low – level technologies, to be used and researched in a modern engine crafted internally at Reality Pump studios. Research topics:
 
 * R&D of a new solutions to n – way threading of game technologies (lock – less subsystem communications, task – stealing job scheduling, property based and observer based distribution changes using distribution controller).
-* Responsible for design and implementation of G2Live system - service abstracting platform specific online social and multiplayer gaming services with backends for Valve's Steamworks, Sony Playstation Network, Xbox Live, Apple's Game Center and internal lightweight dedicated solution called G2Liveμ    
+* Responsible for design and implementation of G2Live system - service abstracting platform specific online social and multiplayer gaming services with backends for Valve's Steamworks, Sony Playstation Network, Xbox Live, Apple's Game Center and internal lightweight dedicated solution called G2Liveμ. Each of the backend is fully asynchronus and allows to play without internet connection because of the support for local data caching with embedded SQLite.     
 * Design and development of new virtual file system allowing great performance, flexibility and rapid prototyping (custom compression algorithm – dictionary based deflate, to allow seeking in compressed file packages, hot – asset reloading, file system queries, flat and recursive directory iterators, URI based path resolver, virtual mount points e.g. network mount point, DVD mount point, etc). 
 
 
