@@ -30,17 +30,18 @@ Technical Highlights
 --------------------
 
 1. C++, Objective-C, Go
-2. Ruby, Coffeescript, Javascript
+2. Ruby, Coffeescript, Javascript, Thrift IDL
 3. Basic Scala, Erlang and R
 4. PostgreSQL, MongoDB, Redis, Elasticsearch, Memcache.
 5. Node.js, Rails, Grape, Sinatra
-6. HTTP, OAuth 2.0, OpenID, JWT
-7. Git, SVN
-8. Object - oriented programming, functional programming
-9. Test Driven Development
-10. Ansible, Sentry, Statsd 
-11. iOS, Mac OS X, Linux, MS Xbox 360, Sony Playstation 3/Vita
-12. Sublime, Vim
+6. HTTP, OAuth 2.0, OpenID, JWT, JSON Schema
+7. REST, Hypermedia, Thrift API 
+8. Git, SVN
+9. Object - oriented programming, functional programming
+10. Test Driven Development
+11. Ansible, Sentry, Statsd 
+12. iOS, Mac OS X, Linux, MS Xbox 360, Sony Playstation 3/Vita
+13. Sublime, Vim
 
 Experience
 ----------
