@@ -22,16 +22,18 @@ Technical Highlights
 Experience
 ----------
 
-**Backend Technology Architect and Engineer, Reality Pump**
+**Platform Architect and Engineer, Reality Pump**
 
 September 2012 - present
 
 Mainly responsible for server side R&D. Researching distributed systems, distributed programming methodologies and concurrency patterns and incorporating them into the game development.
 
-Projects
+Projects:
 
 * Topware's Platform 
+
 * Two Worlds II Online Backend
+
 * G2Liveμ 
 
 **Backend Technology Solution Engineer, Better Reality**
@@ -116,6 +118,15 @@ Human Languages
 
 * Polish - Native speaker
 * English - Professional working proficiency (FCE level)
+
+
+Open Source
+-----------
+
+* [@ Github account](https://github.com/iaintshine/)
+* [`ansible-prestashop` - ansible playbook for deploying Prestashop on a Virtual Machine using Vagrant](https://github.com/iaintshine/ansible-prestashop)
+* [`presta_shop` gem - a library for Ruby to interact with PrestaShop's Web Service API](https://github.com/iaintshine/presta_shop)
+* [`ccurl` - command line utility over standard `curl` command with fancy output](https://github.com/iaintshine/ccurl)
 
 Personal Interests
 ------------------
