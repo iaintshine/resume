@@ -30,7 +30,16 @@ Periodically through studies being speaker at ‘KOD’ scientific group. I gave
 lecture at University of Technology in Rzeszo w about mobile development 
 and 3D games programming. 
 
+Human Languages
+---------------
 
+* Polish - Native speaker
+* English - Professional working proficiency (FCE level)
+
+Personal Interests
+------------------
+
+Gymopsing, hardware hacking.
 
 
 
