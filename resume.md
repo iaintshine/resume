@@ -3,8 +3,8 @@ Bogusław Miśta
 
 
 -------------------     -------------------------
-Swilcza 460                 [bodziomista@gmail.com](mailto:bodziomista@gmail.com)
-36-072 Swilcza              [@ iaintshine](https://twitter.com/iaintshine)
+Świlcza 460                 [bodziomista@gmail.com](mailto:bodziomista@gmail.com)
+36-072 Świlcza              [@ iaintshine](https://twitter.com/iaintshine)
 Poland                      509947122
 -------------------     -------------------------
 
