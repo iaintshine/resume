@@ -1,11 +1,13 @@
 Bogusław Miśta
 ==============
 
+
 -------------------     -------------------------
-Swilcza 460                 bodziomista@gmail.com
-36-072 Swilcza              @iaintshine
+Swilcza 460                 [bodziomista@gmail.com](mailto:bodziomista@gmail.com)
+36-072 Swilcza              [@ iaintshine](https://twitter.com/iaintshine)
 Poland                      509947122
 -------------------     -------------------------
+
 
 About
 -----
@@ -164,6 +166,3 @@ Personal Interests
 ------------------
 
 Gymopsing, hardware hacking.
-
-
-
