@@ -49,7 +49,8 @@ Technical Highlights
 **The text editors I work with**            Sublime, Vim, Visual Studio, XCode
 **SQL and NoSQL stores I worked with**      PostgreSQL, MongoDB, Redis, Elasticsearch, Memcache
 **I try to tam the Zoo with**               Zookeeper, Hadoop
-**Taming services is a different strory**   Sentry, Statsd, Logstash, Nagios     
+**Taming services is a different strory**   Sentry, Statsd, Logstash, Nagios
+**Which are load tested with**              Gatling, Locust 
 **To provision my servers I use**           Ansible
 ------------------------------------------  ------------------------------------------
 
