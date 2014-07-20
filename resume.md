@@ -3,9 +3,10 @@ Bogusław Miśta
 
 
 -------------------     -------------------------
-Świlcza 460                 [bodziomista@gmail.com](mailto:bodziomista@gmail.com)
-36-072 Świlcza              [@ iaintshine](https://twitter.com/iaintshine)
-Poland                      509947122
+Świlcza 460                 email: [bodziomista@gmail.com](mailto:bodziomista@gmail.com)
+36-072 Świlcza              twitter: [@ iaintshine](https://twitter.com/iaintshine)
+Poland                      github: [iaintshine](https://github.com/iaintshine)
+                            mobile: +48 509947122
 -------------------     -------------------------
 
 
@@ -31,19 +32,27 @@ Areas of Interests
 Technical Highlights
 --------------------
 
-1. C++, Objective-C, Go
-2. Ruby, Coffeescript, Javascript, Thrift IDL
-3. Basic Scala, Erlang and R
-4. PostgreSQL, MongoDB, Redis, Elasticsearch, Memcache.
-5. Node.js, Rails, Grape, Sinatra
-6. HTTP, OAuth 2.0, OpenID, JWT, JSON Schema
-7. REST, Hypermedia, Thrift API 
-8. Git, SVN
-9. Object - oriented programming, functional programming
-10. Test Driven Development
-11. Ansible, Sentry, Statsd 
-12. iOS, Mac OS X, Linux, MS Xbox 360, Sony Playstation 3/Vita
-13. Sublime, Vim
+
+------------------------------------------  ------------------------------------------
+**I write native code in**                  C++, Objective-C, Go
+**Script in**                               Ruby, Coffeescript, Javascript, Thrift IDL
+**From time to time I hack in**             Scala, Erlang, Python and R
+**I used to write mobile apps in**          Objective - C for iOS
+**Know some programming paradigms**         Object - Oriented and Functional
+**I try to parralelize my code with**       Schedulers, Actors, Communicating Sequential Processes, MapReduce  
+**I develop software using**                Test - Driven Development, Behavior - Driven Development
+**Platforms I used to work with**           Windows, Mac OS X, Linux, Microsoft Xbox 360, Sony Playstation 3/Vita, iOS
+**The webframeworks I wrote in**            Node.js, Restify, Rails, Grape, Sinatra
+**I've designed some web APIs using**       REST, Hypermedia, Thrift API
+**The protocols I've used**                 HTTP, OAuth 2.0, OpenID, JWT, JSON Schema, GeoJSON
+**To version my code I use**                Git, SVN
+**The text editors I work with**            Sublime, Vim, Visual Studio, XCode
+**SQL and NoSQL stores I worked with**      PostgreSQL, MongoDB, Redis, Elasticsearch, Memcache
+**I try to tam the Zoo with**               Zookeeper, Hadoop
+**Taming services is a different strory**   Sentry, Statsd, Logstash, Nagios     
+**To provision my servers I use**           Ansible
+------------------------------------------  ------------------------------------------
+
 
 Experience
 ----------
@@ -56,11 +65,11 @@ As a platform architect I was responsible for the architecting and building back
 
 Projects:
 
-* Topware's Platform - distributed, micro service oriented, highly scalable gaming platform with more than 10 loosley coupled services and still growing. Each of the service exposes Thrift API to support easy and efficient internal communication. Thanks to Thrift we didn't have to constraint ourselves to any particular language or platform. Json REST API is used to communicate with user - facing applications. Web API standards were created and used across backends. Services can post to and listen for events on global message bus. Advanced routing capabilities were a need hence RabbitMQ was an obvious choose. Each of the event is audited by the Auditing Service. After the collection the evaluator can compute aggragation statistics post hoc. All the events are stored in MongoDB NoSQL datastore. UAA (User Authentication and Authorization) Service is the server issuing access tokens to client after successfully authenticatig the resource owner. To access protected resources we are using OAuth 2.0 protocol, where the OAuth access tokens are JSON Web Token encoded Bearer Tokens. There are multiple of different services of which description could take multiple pages hence if one want to know don't hesitate and ask me directly. We have implemented internal framework called Vineyard for both Ruby and Javascript (Coffeescript) that we are building internal services around, Go support is comming. The framework supports multiple run modes: web server, thrift server, command line, background worker, command line thrift client, and cron task. REST API load tests are performed using Gatling and Scala DSL whereas thrift services are tested using Locust tool and Python code. To automate software provisioning and service deployment we use Ansible.      
+* **Topware's Platform** - distributed, micro service oriented, highly scalable gaming platform with more than 10 loosley coupled services and still growing. Each of the service exposes Thrift API to support easy and efficient internal communication. Thanks to Thrift we didn't have to constraint ourselves to any particular language or platform. Json REST API is used to communicate with user - facing applications. Web API standards were created and used across backends. Services can post to and listen for events on global message bus. Advanced routing capabilities were a need hence RabbitMQ was an obvious choose. Each of the event is audited by the Auditing Service. After the collection the evaluator can compute aggragation statistics post hoc. All the events are stored in MongoDB NoSQL datastore. UAA (User Authentication and Authorization) Service is the server issuing access tokens to client after successfully authenticatig the resource owner. To access protected resources we are using OAuth 2.0 protocol, where the OAuth access tokens are JSON Web Token encoded Bearer Tokens. There are multiple of different services of which description could take multiple pages hence if one want to know don't hesitate and ask me directly. We have implemented internal framework called Vineyard for both Ruby and Javascript (Coffeescript) that we are building internal services around, Go support is comming. The framework supports multiple run modes: web server, thrift server, command line, background worker, command line thrift client, and cron task. REST API load tests are performed using Gatling and Scala DSL whereas thrift services are tested using Locust tool and Python code. To automate software provisioning and service deployment we use Ansible.      
 
-* Two Worlds II Online Backend - one of the requirements for the game except for social gaming features was to bring micro - transactions so users could buy virtual currencies, unlock items and customize their characters. Logical continuation to G2Liveμ. Two additional services were introduced into the backend - G2Payment (written in Ruby and used as a proxy service between the game and payment gateways) and modified Prestashop (written in PHP and used as a user - facing store, modification to the shop were introduced by other company). All processes were communicating using internal json REST API.  
+* **Two Worlds II Online Backend** - one of the requirements for the game except for social gaming features was to bring micro - transactions so users could buy virtual currencies, unlock items and customize their characters. Logical continuation to G2Liveμ. Two additional services were introduced into the backend - G2Payment (written in Ruby and used as a proxy service between the game and payment gateways) and modified Prestashop (written in PHP and used as a user - facing store, modification to the shop were introduced by other company). All processes were communicating using internal json REST API.  
 
-* G2Liveμ - simple mostly monolithic server backend with social gaming features, written in Rails using Ruby language, sessions and scores are stored in Redis, achievements, achievements description, leaderboard descriptions and user data are stored in MySQL database, statsd and graphite are used to track number of concurrent user sessions, number of requests etc. Service is made of two distinct processes. The first one exposes json REST API to communicate with, admin and user dashboards and the second one is used for background processing - sending emails.         
+* **G2Liveμ** - simple mostly monolithic server backend with social gaming features, written in Rails using Ruby language, sessions and scores are stored in Redis, achievements, achievements description, leaderboard descriptions and user data are stored in MySQL database, statsd and graphite are used to track number of concurrent user sessions, number of requests etc. Service is made of two distinct processes. The first one exposes json REST API to communicate with, admin and user dashboards and the second one is used for background processing - sending emails.         
 
 **Backend Technology Solution Engineer, Better Reality**
 
@@ -129,14 +138,14 @@ Completed postgraduate studies at 3D Games Programming.
 Completed studies at Computer Engineering majoring in Information System with a very 
 good result. 
 
-* Diploma thesis title: “Cross – platform system abstraction layer and 3d game 
+Diploma thesis title: “Cross – platform system abstraction layer and 3d game 
 engine for developing advanced 3d games for mobile platforms”.*
 
 Teaching
 --------
 
 Periodically through studies being speaker at ‘KOD’ scientific group. I gave 
-lecture at University of Technology in Rzeszo w about mobile development 
+lecture at University of Technology in Rzeszów about mobile development 
 and 3D games programming. 
 
 Human Languages

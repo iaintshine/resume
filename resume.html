@@ -7,14 +7,6 @@
   <title></title>
   <style type="text/css">code{white-space: pre;}</style>
   <style type="text/css">
-  /*
-   * Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
-   *
-   * CSS for making a resume with pandoc. Inspired by moderncv.
-   *
-   * This CSS document is delivered to you under the CC BY-SA 3.0 License.
-   * https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
-   */
   
   /* Whole document */
   body {
@@ -29,18 +21,24 @@
       color: #555;
   }
   
+  strong {
+      color: #333;
+  }
+  
   /* Title of the resume */
   h1 {
       font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-      font-size: 55px;
+      font-weight: 400;
+      font-size: 45px;
       color: #158cba;
-      text-align:center;
+      /* text-align:center; */
       margin-bottom:15px;
   }
   
   /* Titles of categories */
   h2 {
       font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: 400;
       color: #158cba;
   }
   /* There is a bar just before each category */
@@ -50,7 +48,7 @@
       margin-right:1%;
       width: 16%;
       height: 10px;
-      background-color: #6490D1;
+      background-color: #7BC4E0;
   }
   
   /* Definitions */
@@ -58,7 +56,6 @@
       float: left;
       clear: left;
       width: 17%;
-      /*font-weight: bold;*/
   }
   dd {
       margin-left: 17%;
@@ -78,6 +75,7 @@
       text-decoration: none;
       color: #158cba;
   }
+  
   a:hover, a:active {
       color: #158cba;
       text-decoration: underline;
@@ -91,6 +89,7 @@
   table {
       width: 100%;
   }
+  
   </style>
 </head>
 <body>
@@ -99,7 +98,7 @@
 <tbody>
 <tr class="odd">
 <td align="left">Świlcza 460</td>
-<td align="right"><script type="text/javascript">
+<td align="right">email: <script type="text/javascript">
 <!--
 h='&#x67;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#x6f;&#x6d;';a='&#64;';n='&#98;&#x6f;&#100;&#122;&#x69;&#x6f;&#x6d;&#x69;&#x73;&#116;&#x61;';e=n+a+h;
 document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+e+'<\/'+'a'+'>');
@@ -108,11 +107,15 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+e+'<\/'+'a'+'>');
 </tr>
 <tr class="even">
 <td align="left">36-072 Świlcza</td>
-<td align="right"><a href="https://twitter.com/iaintshine">@ iaintshine</a></td>
+<td align="right">twitter: <a href="https://twitter.com/iaintshine">@ iaintshine</a></td>
 </tr>
 <tr class="odd">
 <td align="left">Poland</td>
-<td align="right">509947122</td>
+<td align="right">github: <a href="https://github.com/iaintshine">iaintshine</a></td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+<td align="right">mobile: +48 509947122</td>
 </tr>
 </tbody>
 </table>
@@ -131,30 +134,87 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+e+'<\/'+'a'+'>');
 <li>Configuration management</li>
 </ul>
 <h2 id="technical-highlights">Technical Highlights</h2>
-<ol style="list-style-type: decimal">
-<li>C++, Objective-C, Go</li>
-<li>Ruby, Coffeescript, Javascript, Thrift IDL</li>
-<li>Basic Scala, Erlang and R</li>
-<li>PostgreSQL, MongoDB, Redis, Elasticsearch, Memcache.</li>
-<li>Node.js, Rails, Grape, Sinatra</li>
-<li>HTTP, OAuth 2.0, OpenID, JWT, JSON Schema</li>
-<li>REST, Hypermedia, Thrift API</li>
-<li>Git, SVN</li>
-<li>Object - oriented programming, functional programming</li>
-<li>Test Driven Development</li>
-<li>Ansible, Sentry, Statsd</li>
-<li>iOS, Mac OS X, Linux, MS Xbox 360, Sony Playstation 3/Vita</li>
-<li>Sublime, Vim</li>
-</ol>
+<table>
+<tbody>
+<tr class="odd">
+<td align="left"><strong>I write native code in</strong></td>
+<td align="left">C++, Objective-C, Go</td>
+</tr>
+<tr class="even">
+<td align="left"><strong>Script in</strong></td>
+<td align="left">Ruby, Coffeescript, Javascript, Thrift IDL</td>
+</tr>
+<tr class="odd">
+<td align="left"><strong>From time to time I hack in</strong></td>
+<td align="left">Scala, Erlang, Python and R</td>
+</tr>
+<tr class="even">
+<td align="left"><strong>I used to write mobile apps in</strong></td>
+<td align="left">Objective - C for iOS</td>
+</tr>
+<tr class="odd">
+<td align="left"><strong>Know some programming paradigms</strong></td>
+<td align="left">Object - Oriented and Functional</td>
+</tr>
+<tr class="even">
+<td align="left"><strong>I try to parralelize my code with</strong></td>
+<td align="left">Schedulers, Actors, Communicating Sequential Processes, MapReduce</td>
+</tr>
+<tr class="odd">
+<td align="left"><strong>I develop software using</strong></td>
+<td align="left">Test - Driven Development, Behavior - Driven Development</td>
+</tr>
+<tr class="even">
+<td align="left"><strong>Platforms I used to work with</strong></td>
+<td align="left">Windows, Mac OS X, Linux, Microsoft Xbox 360, Sony Playstation 3/Vita, iOS</td>
+</tr>
+<tr class="odd">
+<td align="left"><strong>The webframeworks I wrote in</strong></td>
+<td align="left">Node.js, Restify, Rails, Grape, Sinatra</td>
+</tr>
+<tr class="even">
+<td align="left"><strong>I've designed some web APIs using</strong></td>
+<td align="left">REST, Hypermedia, Thrift API</td>
+</tr>
+<tr class="odd">
+<td align="left"><strong>The protocols I've used</strong></td>
+<td align="left">HTTP, OAuth 2.0, OpenID, JWT, JSON Schema, GeoJSON</td>
+</tr>
+<tr class="even">
+<td align="left"><strong>To version my code I use</strong></td>
+<td align="left">Git, SVN</td>
+</tr>
+<tr class="odd">
+<td align="left"><strong>The text editors I work with</strong></td>
+<td align="left">Sublime, Vim, Visual Studio, XCode</td>
+</tr>
+<tr class="even">
+<td align="left"><strong>SQL and NoSQL stores I worked with</strong></td>
+<td align="left">PostgreSQL, MongoDB, Redis, Elasticsearch, Memcache</td>
+</tr>
+<tr class="odd">
+<td align="left"><strong>I try to tam the Zoo with</strong></td>
+<td align="left">Zookeeper, Hadoop</td>
+</tr>
+<tr class="even">
+<td align="left"><strong>Taming services is a different strory</strong></td>
+<td align="left">Sentry, Statsd, Logstash, Nagios</td>
+</tr>
+<tr class="odd">
+<td align="left"><strong>To provision my servers I use</strong></td>
+<td align="left">Ansible</td>
+</tr>
+</tbody>
+</table>
 <h2 id="experience">Experience</h2>
 <p><strong>Platform Architect and Engineer, Reality Pump</strong></p>
 <p>September 2012 - present</p>
 <p>As a platform architect I was responsible for the architecting and building backend solutions used in gaming. One of my duty was to provide technical guidance and mentoring to awesome team of two other engineers building user - facing application as well as some of the backend services. Writing platform design documents, REST API design, technology research and setting the technical direction were on a daily basis. As a software enginner responsible for writing language agnostic extensible framework used across services, implementing client and server APIs, writing, running and automating unit and acceptance tests. Load testing and operational automation were my duty as well. Continually looking for ways to improve existing monitoring, deployment solutions and devops practices.</p>
 <p>Projects:</p>
 <ul>
-<li><p>Topware's Platform - distributed, micro service oriented, highly scalable gaming platform with more than 10 loosley coupled services and still growing. Each of the service exposes Thrift API to support easy and efficient internal communication. Thanks to Thrift we didn't have to constraint ourselves to any particular language or platform. Json REST API is used to communicate with user - facing applications. Web API standards were created and used across backends. Services can post to and listen for events on global message bus. Advanced routing capabilities were a need hence RabbitMQ was an obvious choose. Each of the event is audited by the Auditing Service. After the collection the evaluator can compute aggragation statistics post hoc. All the events are stored in MongoDB NoSQL datastore. UAA (User Authentication and Authorization) Service is the server issuing access tokens to client after successfully authenticatig the resource owner. To access protected resources we are using OAuth 2.0 protocol, where the OAuth access tokens are JSON Web Token encoded Bearer Tokens. There are multiple of different services of which description could take multiple pages hence if one want to know don't hesitate and ask me directly. We have implemented internal framework called Vineyard for both Ruby and Javascript (Coffeescript) that we are building internal services around, Go support is comming. The framework supports multiple run modes: web server, thrift server, command line, background worker, command line thrift client, and cron task. REST API load tests are performed using Gatling and Scala DSL whereas thrift services are tested using Locust tool and Python code. To automate software provisioning and service deployment we use Ansible.</p></li>
-<li><p>Two Worlds II Online Backend - one of the requirements for the game except for social gaming features was to bring micro - transactions so users could buy virtual currencies, unlock items and customize their characters. Logical continuation to G2Liveμ. Two additional services were introduced into the backend - G2Payment (written in Ruby and used as a proxy service between the game and payment gateways) and modified Prestashop (written in PHP and used as a user - facing store, modification to the shop were introduced by other company). All processes were communicating using internal json REST API.</p></li>
-<li><p>G2Liveμ - simple mostly monolithic server backend with social gaming features, written in Rails using Ruby language, sessions and scores are stored in Redis, achievements, achievements description, leaderboard descriptions and user data are stored in MySQL database, statsd and graphite are used to track number of concurrent user sessions, number of requests etc. Service is made of two distinct processes. The first one exposes json REST API to communicate with, admin and user dashboards and the second one is used for background processing - sending emails.</p></li>
+<li><p><strong>Topware's Platform</strong> - distributed, micro service oriented, highly scalable gaming platform with more than 10 loosley coupled services and still growing. Each of the service exposes Thrift API to support easy and efficient internal communication. Thanks to Thrift we didn't have to constraint ourselves to any particular language or platform. Json REST API is used to communicate with user - facing applications. Web API standards were created and used across backends. Services can post to and listen for events on global message bus. Advanced routing capabilities were a need hence RabbitMQ was an obvious choose. Each of the event is audited by the Auditing Service. After the collection the evaluator can compute aggragation statistics post hoc. All the events are stored in MongoDB NoSQL datastore. UAA (User Authentication and Authorization) Service is the server issuing access tokens to client after successfully authenticatig the resource owner. To access protected resources we are using OAuth 2.0 protocol, where the OAuth access tokens are JSON Web Token encoded Bearer Tokens. There are multiple of different services of which description could take multiple pages hence if one want to know don't hesitate and ask me directly. We have implemented internal framework called Vineyard for both Ruby and Javascript (Coffeescript) that we are building internal services around, Go support is comming. The framework supports multiple run modes: web server, thrift server, command line, background worker, command line thrift client, and cron task. REST API load tests are performed using Gatling and Scala DSL whereas thrift services are tested using Locust tool and Python code. To automate software provisioning and service deployment we use Ansible.</p></li>
+<li><p><strong>Two Worlds II Online Backend</strong> - one of the requirements for the game except for social gaming features was to bring micro - transactions so users could buy virtual currencies, unlock items and customize their characters. Logical continuation to G2Liveμ. Two additional services were introduced into the backend - G2Payment (written in Ruby and used as a proxy service between the game and payment gateways) and modified Prestashop (written in PHP and used as a user - facing store, modification to the shop were introduced by other company). All processes were communicating using internal json REST API.</p></li>
+<li><p><strong>G2Liveμ</strong> - simple mostly monolithic server backend with social gaming features, written in Rails using Ruby language, sessions and scores are stored in Redis, achievements, achievements description, leaderboard descriptions and user data are stored in MySQL database, statsd and graphite are used to track number of concurrent user sessions, number of requests etc. Service is made of two distinct processes. The first one exposes json REST API to communicate with, admin and user dashboards and the second one is used for background processing - sending emails.</p></li>
 </ul>
 <p><strong>Backend Technology Solution Engineer, Better Reality</strong></p>
 <p>May 2014 - June 2014</p>
@@ -200,11 +260,9 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+e+'<\/'+'a'+'>');
 <p>Completed postgraduate studies at 3D Games Programming.</p>
 <p><strong>Rzeszow University of Technology, Master of Science Degree, Computer Engineering</strong></p>
 <p>Completed studies at Computer Engineering majoring in Information System with a very good result.</p>
-<ul>
-<li>Diploma thesis title: “Cross – platform system abstraction layer and 3d game engine for developing advanced 3d games for mobile platforms”.*</li>
-</ul>
+<p>Diploma thesis title: “Cross – platform system abstraction layer and 3d game engine for developing advanced 3d games for mobile platforms”.*</p>
 <h2 id="teaching">Teaching</h2>
-<p>Periodically through studies being speaker at ‘KOD’ scientific group. I gave lecture at University of Technology in Rzeszo w about mobile development and 3D games programming.</p>
+<p>Periodically through studies being speaker at ‘KOD’ scientific group. I gave lecture at University of Technology in Rzeszów about mobile development and 3D games programming.</p>
 <h2 id="human-languages">Human Languages</h2>
 <ul>
 <li>Polish - Native speaker</li>
