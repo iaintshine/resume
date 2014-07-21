@@ -39,7 +39,7 @@ Technical Highlights
 **From time to time I hack in**             Scala, Erlang, Python and R
 **I used to write mobile apps in**          Objective - C for iOS
 **Know some programming paradigms**         Object - Oriented and Functional
-**I try to parralelize my code with**       Schedulers, Actors, Communicating Sequential Processes, MapReduce  
+**I try to parralelize my code with**       Event loops, Schedulers, Actors, CSP, MapReduce  
 **I develop software using**                Test - Driven Development, Behavior - Driven Development
 **Platforms I used to work with**           Windows, Mac OS X, Linux, Microsoft Xbox 360, Sony Playstation 3/Vita, iOS
 **The webframeworks I wrote in**            Node.js, Restify, Rails, Grape, Sinatra
@@ -51,7 +51,7 @@ Technical Highlights
 **I try to tam the Zoo with**               Zookeeper, Hadoop
 **Taming services is a different strory**   Sentry, Statsd, Logstash, Nagios
 **Which are load tested with**              Gatling, Locust 
-**To provision my servers I use**           Ansible
+**To provision my servers I use**           Ansible, Chef (*in the past*)
 ------------------------------------------  ------------------------------------------
 
 
@@ -177,3 +177,8 @@ Personal Interests
 ------------------
 
 Gymopsing, hardware hacking.
+
+
+---------------
+
+„I hereby consent to the processing of my vital and personal data in so far as this is required under the ongoing and future recruiting processes, in accordance with the Act of August 29, 1997, on the Protection of Personal Information (JoL no. 133, item 883).”
