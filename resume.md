@@ -161,6 +161,7 @@ Open Source
 
 * [@ Github account](https://github.com/iaintshine/)
 * [`hunch gem` - RabbitMQ client used for inter service communication](https://github.com/iaintshine/hunch)
+* [`gocollect` - golang timestamped events collector](https://github.com/iaintshine/gocollect)
 * [`ansible-prestashop` - ansible playbook for deploying Prestashop on a Virtual Machine using Vagrant](https://github.com/iaintshine/ansible-prestashop)
 * [`presta_shop` gem - a library for Ruby to interact with PrestaShop's Web Service API](https://github.com/iaintshine/presta_shop)
 * [`ccurl` - command line utility over standard `curl` command with fancy output](https://github.com/iaintshine/ccurl)
